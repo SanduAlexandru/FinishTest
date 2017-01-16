@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@drawable/hayo_main_action_button_disabled"-->
+    <item android:drawable="@color/BUTTON_GREY"
+        android:state_enabled="false" />
+    <!--<item android:drawable="@drawable/hayo_main_action_button_pressed"-->
+    <item android:drawable="@color/BUTTON_PRESSED"
+        android:state_pressed="true" />
+    <!--<item android:drawable="@drawable/hayo_main_action_button_pressed"-->
+    <item android:drawable="@color/BUTTON_PRESSED"
+        android:state_focused="true" />
+    <item android:drawable="@color/BUTTON_UNPRESSED"/>
+</selector>

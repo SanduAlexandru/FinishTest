@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="BLACK">#000000</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="colorAccent">#0f6d95</color>
+    <color name="BUTTON_GREY">#999999</color>
+    <color name="BUTTON_PRESSED">#0f6d95</color>
+    <color name="BOY_THEME">#0f6d95</color>
+    <color name="GIRL_THEME">#bd2457</color>
+    <color name="TEXT_NOT_SELECTED">#99FFFFFF</color>
+    <color name="BACKGROUD_GREY">#e5e5e5</color>
+    <color name="CALENDAR_GREY">#b4b4b4</color>
+    <color name="BUTTON_UNPRESSED">#219dd2</color>
+    <color name="BUTTON_UNPRESSED_darker">#1b82ae</color>
+    <color name="TEXT_COLOUR">#0f6d95</color>
+    <color name="EDIT_TEXT_BACKGROUND">#e8f5fa</color>
+    <color name="progress_background">#99000000</color>
+    <color name="white">#ffffff</color>
+</resources>

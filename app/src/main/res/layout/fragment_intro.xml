@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/intro_bck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/WHITE"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/LoginRegister_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Hello and welcome to Ma'Pet!"
+                android:textColor="#0f6d95"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/LoginRegister_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pharetra felis sed leo porttitor, et tincidunt erat elementum. Fusce non ullamcorper enim, in mollis quam. Integer interdum tristique mi. Sed consectetur sed est varius dignissim. Quisque eu dignissim quam. Nullam lacinia gravida augue. Pellentesque eget scelerisque est. Proin vulputate lectus in velit vestibulum tincidunt."
+                android:textColor="#0f6d95"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+        <Button
+            android:id="@+id/register"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/secondary_button"
+            android:gravity="center"
+            android:textColor="@color/WHITE"
+            android:text="Register"/>
+
+        <Button
+            android:id="@+id/login"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/main_button_height"
+            android:background="@drawable/main_button"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/WHITE" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
